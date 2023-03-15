@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login and Register Page</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="copyright" content="all content copyright 2023." />
+<meta name="author" content="Harun FSD">
+<meta name="keyword" content="keys for SEO">
+<meta http-equiv="Content-language" content="tr" /> 
+<meta name="description" content="register page" />
+<link rel="stylesheet" href="files/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;500;600&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+<!-- Header Page -->
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul class="navbar">
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">Servisler</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">İletişim</a></li>
+            <button type="button" class="btnlogin-popup">Giriş Yap</button>
+        </ul>
+    </header>
+
+    <!-- Container -->
+
+    <div class="container">
+        <div class="main-box login">
+            <h1>Login</h1>
+            <form action="">
+
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-user'></i></span>
+                    <input type="email" required>
+                    <label for="">Kullanıcı Adı</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope'></i></span>
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                    <input type="password" required>
+                    <label for="">Şifre</label>
+                </div>
+                <div class="check">
+                    <label for=""><input type="checkbox">Beni Hatırla</label>
+                    <a href="#">Şifremi Unuttum</a>
+
+                </div>
+                <button type="submit" class="main-btn">Giriş Yap</button>
+                <div class="register">
+                    <p>Hesabın Yokmu ?</p>
+                    <a href="#" class="register-link">Kayıt Ol</a>
+
+                </div>
+            </form>
+
+        </div>
+
+
+        <div class="main-box register">
+            <h1>Kayıt Ol</h1>
+            <form action="">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-user'></i></span>
+                    <input type="text" required>
+                    <label for="">Kullanıcı Adı</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope'></i></span>
+                    <input type="text" required>
+                    <label for="">Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                    <input type="password" required>
+                    <label for="">Şifre</label>
+                </div>
+                <div class="check">
+                    <label for=""><input type="checkbox">Sözleşmeyi Okudum Kabul Ediyorum</label>
+                </div>
+                <button type="submit" class="main-btn">Kayıt Ol</button>
+                <div class="register">
+                    <p>Hesabınız Zaten Mevcutmu ?</p>
+                    <a href="#" class="login-link">Login</a>
+
+                </div>
+            </form>
+
+        </div>
+
+        <span class="close-icon">
+            <div class="bx bx-x"></div> 
+        </span>
+    </div>
+
+
+    <script type="text/javascript" src="files/script.js">
+
+    </script>
+</body>
+</html>
